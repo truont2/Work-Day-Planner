@@ -2,6 +2,7 @@ var currentDay = $("#currentDay").text(moment().format("dddd, MMM do"));;
 var textInputs = $("textarea");
 var currentTime = parseInt(moment().format("HH"));
 console.log(textInputs)
+var resetBtn = $("#reset");
 
 var taskObj = {}
 var time = {
@@ -42,7 +43,7 @@ saveBtn.on("click", function() {
         if(textInputs.eq(i).attr("data-index") === btnIndex) {
             taskObj[btnIndex] = textInputs.eq(i).val().trim();
             
-            localStorage.setItem("tasks", JSON.stringify(taskObj));
+            storeText();
         }
     }
     
@@ -53,9 +54,7 @@ saveBtn.on("click", function() {
 var timer = setInterval(function() {
     currentTime = parseInt(moment().format("HH"));
     if(currentTime === 0) {
-        $.each(textInputs, () => {
-            $(this).val("");
-        })
+        resetPage();
     }
 }, 600000)
 
@@ -74,3 +73,16 @@ $.each(textInputs, function() {
     }
 
 });
+
+function resetPage() {
+    console.log("reset");
+    taskObj = {};
+    storeText();
+    window.location.reload();
+}
+
+resetBtn.click(resetPage);
+
+function storeText() {
+    localStorage.setItem("tasks", JSON.stringify(taskObj));
+}

@@ -1,5 +1,26 @@
 # Work-Day-Planner
 
-Create a simple calendar application that allows a user to save events for each hour of the day by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
+## Table of Contents
+1. [General Info](#general-info)
+2. [Screenshots](#screenshots)
+3. [Webpage link](#Webpage-link)
+4. [Resources](#resources)
 
-You'll need to use the Moment.js library to work with date and time. Be sure to read the documentation carefully and concentrate on using Moment.js in the browser.
+Author: Takara Truong
+### General Info
+
+
+### Screenshots
+Planner Screenshots:
+
+![website screenshot](./images/startingPage.PNG)
+![website screenshot](./images/question.PNG)
+![website screenshot](./images/endPage.PNG)
+![website screenshot](./images/highscore.PNG)
+
+### Website link
+https://truont2.github.io/Code_Quiz_Program/
+
+### Resources
+* https://getbootstrap.com/docs/4.0/getting-started/introduction/
+* https://api.jquery.com/

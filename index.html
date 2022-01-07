@@ -23,15 +23,20 @@
   </head>
 
   <body>
+    <!-- Title and date display -->
     <header class="jumbotron">
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
     </header>
+
+    <!-- Planner Content container-->
     <div class="container-fluid col-10">
-      <!-- Timeblocks go here -->
-      <!-- possibly make a for loop and set data index = i? -->
+
+
+      <!-- each section represents a time slot -->
       <div class="row justify-content-center">
+        <button class="btn" id="reset">Reset</button>
         <div class="input-group">
           <div class="input-group-prepend hour">
             <span class="input-group-text" id="basic-addon1">9AM</span>
