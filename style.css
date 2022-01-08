@@ -22,10 +22,10 @@ textarea {
 
 .jumbotron {
   text-align: center;
-  background-color: transparent;
+  background-color: rgb(144, 179, 218);
   color: black;
   border-radius: 0;
-  border-bottom: 10px solid black;
+  border-bottom: 10px solid rgb(22, 78, 129);
 }
 
 .description {
@@ -47,6 +47,7 @@ textarea {
   background-color: #ffffff;
   color: #000000;
   border-top: 1px dashed #000000;
+  border-right: 3px solid rgb(23, 107, 103);
 }
 
 .past {
@@ -86,6 +87,13 @@ textarea {
 .btn {
   width: 75px;
 }
+.btn-reset {
+  width: fit-content;
+  padding: 5px;
+  margin-bottom: 10px;
+  background-color: transparent;
+  border: none;
+}
 
 #basic-addon1 {
   background: none;
@@ -94,15 +102,15 @@ textarea {
 
 
 .past {
-  background-color: grey; 
+  background-color: rgb(100, 133, 143); 
 }
 
 .present {
-  background-color: rgb(76, 145, 76);
+  background-color: rgb(125, 219, 231);
 }
 
 .future{
-  background-color:rgb(218, 144, 144);
+  background-color:rgb(5, 94, 146);
 }
 
 
