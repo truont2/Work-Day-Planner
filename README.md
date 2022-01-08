@@ -15,13 +15,17 @@ This porject implemented moment.js for the date, jQuery and Javascript for funct
 ### Screenshots
 Planner Screenshots:
 
-![website screenshot](./images/startingPage.PNG)
-![website screenshot](./images/question.PNG)
-![website screenshot](./images/endPage.PNG)
-![website screenshot](./images/highscore.PNG)
+* Top of page
+![website screenshot](./images/Capture.PNG)
+
+* Page when text area is selected
+![website screenshot](./images/Capture1.PNG)
+
+* Page at a certain time to demonstate text area coloring
+![website screenshot](./images/Capture2.PNG)
 
 ### Website link
-https://truont2.github.io/Code_Quiz_Program/
+https://truont2.github.io/Work-Day-Planner/
 
 ### Resources
 * https://getbootstrap.com/docs/4.0/getting-started/introduction/
