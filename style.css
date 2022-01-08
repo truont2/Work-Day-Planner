@@ -1,16 +1,18 @@
+/* universal selector styling: removes default styling of elements */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-
+/* styling for the body */
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1;
 }
 
+/* styling for the text areas */
 textarea {
   background: transparent;
   border: none;
@@ -20,6 +22,7 @@ textarea {
   padding: 10px;
 }
 
+/* styling for page title  */
 .jumbotron {
   text-align: center;
   background-color: rgb(144, 179, 218);
@@ -28,21 +31,25 @@ textarea {
   border-bottom: 10px solid rgb(22, 78, 129);
 }
 
+/* styling for text below page title */
 .description {
   white-space: pre-wrap;
 }
 
+/* styling for date */
 .time-block {
   text-align: center;
   border-radius: 15px;
 }
 
+/* styles planner section */
 .row {
   white-space: pre-wrap;
   height: 80px;
   border-top: 1px solid white;
 }
 
+/* styles the time portion of the planner */
 .hour {
   background-color: #ffffff;
   color: #000000;
@@ -50,21 +57,23 @@ textarea {
   border-right: 3px solid rgb(23, 107, 103);
 }
 
+/* background colors for each text area depending on the time */
 .past {
-  background-color: #d3d3d3;
+  background-color: rgb(100, 133, 143); 
   color: white;
 }
 
 .present {
-  background-color: #ff6961;
+  background-color: rgb(125, 219, 231);
   color: white;
 }
 
 .future {
-  background-color: #77dd77;
+  background-color:rgb(5, 94, 146);
   color: white;
 }
 
+/* styling for the save buttons */
 .saveBtn {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
@@ -78,15 +87,19 @@ textarea {
   transition: all 0.3s ease-in-out;
 }
 
+/* styling for time portion text */
 .input-group-text {
   width: 75px;
   align-items: flex-start;
   justify-content: flex-end;
 }
 
+/* styling for all buttons */
 .btn {
   width: 75px;
 }
+
+/* styling for reset button  */
 .btn-reset {
   width: fit-content;
   padding: 5px;
@@ -95,22 +108,10 @@ textarea {
   border: none;
 }
 
+/* additional styling for the time portion text span */
 #basic-addon1 {
   background: none;
   border: none;
-}
-
-
-.past {
-  background-color: rgb(100, 133, 143); 
-}
-
-.present {
-  background-color: rgb(125, 219, 231);
-}
-
-.future{
-  background-color:rgb(5, 94, 146);
 }
 
 
